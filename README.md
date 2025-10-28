@@ -1,2 +1,1 @@
-# Betrollin-Group-Sales-Performance-Analysis-Report-2024
-This report provides an analytical review of Betrollin Group’s sales data in the year 2024.
+This report provides an analytical review of Betrollin Group’s sales data in the year 2024. The goal is to evaluate sales performance, identify regional and product-level trends, and uncover patterns that can drive informed decision-making and business optimization.
