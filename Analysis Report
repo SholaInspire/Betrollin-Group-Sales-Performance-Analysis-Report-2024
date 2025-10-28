@@ -1,0 +1,166 @@
+This report provides an analytical review of Betrollin Group’s sales data in the year 2024. The goal is to evaluate sales performance, identify regional and product-level trends, and uncover patterns that can drive informed decision-making and business optimization.
+
+Press enter or click to view image in full size
+
+1. Introduction
+Objective of the Project
+The objective of this analysis is to evaluate the sales performance of Betrollin Group of Companies for the year 2024. The project aims to uncover key trends across time periods, identify top-performing regions, assess sales contributions by product category and salesperson, and understand the purchasing patterns of major customers. This analysis will provide management with actionable insights to guide future decision-making and optimize sales strategy.
+
+Problem Being Addressed
+The company seeks to identify what drives its sales success — whether it is regional demand, specific products, or key sales representatives. Additionally, understanding underperforming areas is crucial for reallocating resources efficiently and improving overall profitability. The analysis addresses questions such as:
+
+Which regions and cities contribute most to sales revenue?
+Which products generate the highest income?
+Who are the top-performing salespersons and customers?
+What trends exist over time that may inform future strategies?
+Key Datasets and Methodologies
+The dataset used comprises company-wide sales records for 2024, including fields such as product categories, sales amount, region, city, salesperson, customer, and transaction values.
+The analysis was performed in Microsoft Excel, employing tools such as:
+
+Pivot Tables for aggregating regional and product-level sales.
+Charts and Graphs (bar, line, and pie) for visual representation of trends.
+Slicers and Dashboards for interactivity and dynamic insights.
+Basic statistical summaries to identify correlations between sales volume and other variables.
+
+2. Story of Data
+Data Source
+The data originates from the internal sales management system of Betrollin Group of Companies. It captures all sales transactions conducted across various states, cities, and product lines within the year 2024.
+
+Data Structure
+The dataset is organized in a tabular format where:
+
+Each row represents a sales transaction.
+Columns include date, product category, city, state, region, customer, salesperson, and sales amount.
+This structure allows flexible slicing by multiple variables and easy aggregation for visualization in Excel.
+Important Features and Their Significance
+Sales Amount — Central variable for measuring revenue performance.
+Region/City — Critical for geographical analysis.
+Product Category — Highlights which products drive profitability.
+Salesperson & Customer — Identifies high performers and loyal buyers.
+Transaction Value — Shows purchasing capacity across customers.
+Data Limitations or Biases
+While comprehensive, the dataset reflects only a single fiscal year and may not account for seasonal externalities or macroeconomic shifts. Also, differences in data recording consistency between regions might slightly affect aggregation accuracy.
+
+3. Data Splitting and Preprocessing
+Data Cleaning
+Data was inspected for inconsistencies, duplicate transactions, and format errors. Missing or invalid sales entries were corrected or excluded to ensure reliability.
+
+Handling Missing Values
+Empty values in non-critical columns (like remarks) were ignored, but any missing sales or product data were reconciled through cross-verification with transaction logs.
+
+Data Transformations
+Data was formatted for currency consistency and grouped into categories (e.g., transaction ranges: 0–1000, 1000–2000, etc.) for performance segmentation.
+
+Data Splitting
+Independent variables:
+
+1. Customer name
+
+2. City
+
+3. Salesperson
+
+4. Country
+
+5. Ship name
+
+6. Shipper country
+
+7. Ship state
+
+8. Region
+
+9. Payment type
+
+Dependent variable:
+
+1. Quantity
+
+2. Unit price
+
+3. Revenue
+
+4. Shipping fee
+
+5. Zip/Postal code
+
+6. Category
+
+Industry Context
+The company operates within the fast-moving consumer goods (FMCG) sector, focusing on beverages, sauces, jams, and canned products. Competition in this sector is high, emphasizing efficient logistics and regional dominance.
+
+Stakeholders
+Key stakeholders include sales managers, regional supervisors, product marketing teams, and executive leadership responsible for strategic planning.
+
+Value to the Industry
+This report provides an evidence-based framework for understanding regional dynamics, supporting effective market expansion, and improving customer relationship management.
+
+4. Pre-Analysis
+Identify Key Trends
+December recorded the highest sales, indicating strong year-end performance possibly linked to festive demand.
+Sales trend fluctuated throughout the year, with a noticeable mid-year dip in July followed by recovery in Q4.
+Beverages emerged as the top-selling category, with total revenue of $110,577.
+Potential Correlations
+Strong correlation between salesperson performance and top revenue cities — New York (both top city and best-performing salesperson location).
+Product type and transaction size are interrelated, with beverages accounting for most small-to-medium transactions.
+Initial Insights
+The North region leads with $141,680, suggesting regional dominance, while New York City remains the core hub of operations. The best salesperson, Nancy F., achieved over $104,000, reinforcing the role of individual excellence in sales output.
+
+5. In-Analysis
+Unconfirmed Insights
+Preliminary trends hinted that smaller transactions (0–1000) dominated sales count. The bar chart confirms this, with 218 recorded transactions in this range compared to fewer than 10 for amounts above $6000.
+
+Recommendations
+Focus marketing and resource strategies in New York, Portland, and Miami, which are top contributors to revenue. Enhance engagement programs for other cities such as Memphis and Milwaukee to improve balance.
+
+Analysis Techniques Used in Excel
+PivotCharts for trend tracking.
+Slicers for interactive filtering by salesperson and product line.
+Bar and Line Charts for temporal and categorical comparisons.
+Conditional Formatting for performance thresholds.
+
+6. Post-Analysis and Insights
+Key Findings
+Total regional performance confirms North > West > East > South.
+Top product: Beverages ($110,577).
+Top city: New York ($67,181).
+Top customer: Company D ($67,181).
+Best salesperson: Nancy F. ($104,252).
+Comparison with Initial Findings
+The initial assumption that regional demand drives sales was validated, but individual sales performance also played a crucial role. Surprisingly, smaller transaction sizes generated the highest cumulative volume.
+
+7. Data Visualizations & Charts
+Charts and Graphs
+The dashboard presents:
+
+Line Chart showing monthly sales trends, with peaks in June and December.
+Bar Charts for top cities, customers, and product categories.
+Pie Chart showing regional performance distribution.
+Map Visualization showing state-by-state revenue concentration.
+Explanation of Visualizations
+These visuals collectively reveal:
+
+A strong end-of-year sales boost.
+Beverages as the dominant product line across all regions.
+The North region outperforming others both in revenue and transaction count.
+
+8. Recommendations and Observations
+Optimizations or Business Decisions
+Expand inventory and logistics capacity in the North and West regions.
+Strengthen sales training programs to replicate Nancy F.’s high performance.
+Target medium transaction value customers (1000–2000 range) for higher profitability.
+Unexpected Outcomes
+Sales performance did not align directly with transaction value; most revenue originated from numerous small purchases rather than large orders.
+Certain regions like East underperformed despite major urban centers.
+
+9. Conclusion
+Key Learnings
+This analysis highlights the effectiveness of combining regional focus with strong individual sales performance. The company’s success is largely attributed to consistent demand in key cities and a dominant product line.
+Future Research
+Future analyses could incorporate multi-year data to evaluate long-term growth patterns and explore customer segmentation models to personalize marketing strategies.
+
+10. References & Appendices
+Dataset Source: Kaggle
+Institution: Vephla University.
+Visualization Tool: Excel, Pivot Table, Pivot Charts.
+Analyst: Oluwanisola Odunyemi
